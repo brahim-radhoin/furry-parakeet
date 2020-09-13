@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #d9d9d9;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 20px;
+  top: 0px;
+  display: block;
+  overflow: hidden;
+  padding: 20px 100px 20px 100px;
+  background-color: #101010;
+  border-bottom: 2px solid #f12020;
+}
+
+.inner-header {
+  display: flex;
+  margin: 0 auto;
+  width: 1100px;
+  height: 100%;
+  padding: 0 100px 0 100px;
+}
+
+.inner-header a {
+  flex-basis: 50%;
+  vertical-align: middle;
+  width: 17vw;
+  font-size: large;
+  color: #fff;
+  height: 100%;
+}
+
+.sec1 {
+  display: block;
+  padding: 70px 0;
+}
+
+.left {
+  padding: 100px 500px 0 50px;
+}
+
+.stick {
+  float: right;
+  padding-right: 50px;
+  width: auto;
+  height: 400px;
+}
+
+.sec2 {
+  clear: both;
+  float: none;
+}
+
+.sec3 {
+  padding: 50px 5px;
+  height: 100vh;
+  display: grid;
+  overflow: hidden;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+  grid-template-areas: "box1 box2 box3" "box4 box5 box6";
+}
+
+.sec3 img {
+  width: 100%;
+  height: 100%;
+}
+
+.sec3 .box1 {
+  grid-area: box1;
+  width: 1/3vh;
+  height: 50vh;
+}
+
+.box2 {
+  grid-area: box2;
+  width: 1/3vh;
+  height: 50vh;
+}
+
+.box3 {
+  grid-area: box3;
+  width: 1/3vh;
+  height: 50vh;
+}
+
+.box4 {
+  grid-area: box4;
+  width: 1/3vh;
+  height: 50vh;
+}
+
+.box5 {
+  grid-area: box5;
+  width: 1/3vh;
+  height: 50vh;
+}
+
+.box6 {
+  grid-area: box6;
+  width: 1/3vh;
+  height: 50vh;
+}
+
+footer {
+  width: 100%;
+  position: relative;
+  bottom: 0px;
+  display: block;
+  background-color: #000;
+  overflow: hidden;
+  padding: 70px 0;
+  box-sizing: border-box;
+  border-top: 2px solid #f12020;
+}
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  width: 1100px;
+  height: 100%;
+  padding: 0px 100px 0px 100px;
+}
+
+.container .box {
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+
+.box h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.box .content {
+  margin-top: 20px;
+}
+
+.center .content span:first-of-type {
+  margin-right: 2px;
+}
+
+.right .content p {
+  text-align: justify;
+}
+
+.right .content .social {
+  margin-top: 20px;
+}
+
+.right .content .social a {
+  padding: 0 2px;
+}
+
+.right .content .social a span {
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.right .content .social a span:hover {
+  background: #f12020;
+}
